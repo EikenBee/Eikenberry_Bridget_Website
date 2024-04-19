@@ -1,0 +1,217 @@
+@font-face {
+    Font-family: "SharpePersonal";
+    src:url("../Fonts/SharpeBl_PERSONAL.ttf") format("truetype")
+}
+@font-face {
+    font-family: "Bauhaus93";
+    src: url("../Fonts/Bauhaus93Regular.ttf") format("truetype");
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+.Kasama-Logo {
+    background-color: #ebd4d5;
+    border: 1px solid #ebd4d5;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+    font-family: "Bauhaus93";
+    font-size: 25px;
+}
+.h-menu {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+.KM {
+    font-family: "lust-script", sans-serif;
+    font-size: 75px;
+    padding: 10px;
+}
+.Food-Bcgd {
+    background-image: url("../Images/Food/chickenafritada.jpeg");
+    min-height: 804px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.FoodBcgd-Text {
+    max-width: 1032px;
+    padding: 191px 333.5px 0;
+    color: black;
+    text-align: center;
+}
+.FoodBcgd-container {
+    max-width: 500px;
+    background: #ffffff80;
+    padding: 30px 10px 30px 10px;
+    border-radius: 35px;
+}
+.descript {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+.explore-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #aa4f53;
+    border: 1px solid #aa4f53;
+    border-radius: 15px;
+    padding: 10px;
+}
+.explore-btn:hover {
+    background-color:#c37e81;
+    color: #fff;
+    border: 1px solid #c37e81;
+}
+.Specials {
+    padding: 20px;
+}
+.know-us {
+    background-color: #ebd4d5;
+}
+.text-align {
+    text-align: center;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.foods {
+    display: flex;
+    max-width: 600px;
+}
+.foods img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.food-imgs {
+    padding: 15px 20px 15px 20px;
+}
+.food-names {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+.know-us {
+    padding: 20px;
+}
+.padding {
+    padding: 15px;
+}
+.subhead {
+    font-family: "Bauhaus93";
+    font-size: 40px;
+}
+.body-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.reviews {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.review-width {
+    max-width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4 {
+    width: 33.33%;
+    padding: 10px 8px 10px 8px;
+}
+.quote-1 {
+    background-color: #ebd4d5;
+    padding: 20px;
+    border-radius: 35px;
+    height: 100%;
+}
+.quote-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.reviewee {
+    border-radius: 20px;
+}
+.location {
+    background-color: #bfc3a1;
+    text-align: center;
+    padding: 40px;
+}
+.location-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.footer {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-logo {
+    background-color: #ebd4d5;
+    border: 1px solid #ebd4d5;
+    border-radius: 20px;
+}
+.foot-nav {
+    padding: 0 75px;
+    display: flex;
+    flex-direction: column;
+}
+.foot-head {
+    font-family: "Bauhaus93";
+    font-size: 40px;
+}
+.foot-links {
+    text-decoration: none;
+    color: black;
+    padding: 15px 0 15px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.h-menu:hover {
+    cursor: pointer;
+}
+.materials-symbols-outlined {
+    font-size: 20px !important;
+}
+@media (max-width: 400px) {
+    .nav a {
+        display: none;
+    }
+    .Food-Bcgd {
+        flex-basis: 100%;
+    }
+    .col-sm-12 {
+        flex-basis: 100%;
+    }
+    .h-menu {
+        display: inline-block;
+    }
+    .header {
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+}
